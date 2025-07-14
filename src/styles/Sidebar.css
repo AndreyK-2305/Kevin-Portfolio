@@ -1,0 +1,89 @@
+
+.sidebar-overlay {
+  position: fixed;       /* Cambiado de absolute a fixed */
+  top: 0;
+  left: 0;
+  width: 120px;         /* Asegura suficiente espacio */
+  height: 100vh;        /* Cubre toda la altura */
+  z-index: 1000;        /* Muy alto para estar sobre todo */
+  display: flex;
+  padding-top: 100px;
+  padding-left: 25px;
+  align-items: flex-start;
+  justify-content: center;
+  background: transparent;
+  pointer-events: none; 
+}
+
+.sidebar {
+  background: #e0e0e0;
+  border-radius: 18px;
+  box-shadow: 0 1.5px rgba(0, 0, 0, 0.18);
+  border: 4px solid #111;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5px;
+  margin-top: 0.5px;
+  width: 90px;
+  height: auto;
+  justify-content: flex-start;
+  position: relative;
+  z-index: 11;
+  pointer-events: auto;     /* Permite clics dentro del sidebar */
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.sidebar li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1.5px;
+  cursor: pointer;
+  transition: background 0.2s;
+  padding: 10px 0;
+  border-radius: 10px;
+}
+
+.sidebar li.active .material-icons {
+  color: #3a22c4; /* solo cambia el ícono a morado */
+}
+
+.sidebar li.active .sidebar-label {
+  color: #3a22c4; /* opcional, si querés el texto morado también */
+}
+
+.sidebar li:hover {
+  background: #f0f0f0; /* efecto visual leve al pasar el mouse, opcional */
+}
+
+.sidebar li {
+  background: transparent;
+  color: #000;
+}
+
+
+.sidebar-label {
+  font-size: 10px;
+  margin-top: 4px;
+  letter-spacing: 0.5px;
+}
+
+.material-icons {
+  font-size: 32px;
+  color: #000;
+  transition: color 0.3s ease;
+}
+
+.sidebar li:hover .material-icons {
+  transform: scale(1.1);
+}
+.material-icons {
+  transition: color 0.3s ease, transform 0.2s ease;
+}

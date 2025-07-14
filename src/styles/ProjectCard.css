@@ -1,0 +1,73 @@
+.project-card {
+  display: flex;
+  align-items: center;
+  background: #e0e0e0;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  padding: 18px 24px;
+  margin-bottom: 24px;
+  gap: 24px;
+  position: relative;
+}
+
+.project-image {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+  background: #ccc;
+}
+
+.project-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.project-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin: 0 0 4px 0;
+  letter-spacing: 1px;
+}
+
+.project-description {
+  font-size: 1rem;
+  margin: 0;
+  color: #222;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.project-techs {
+  display: flex;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+.tech-icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: contain;
+  border: 1px solid black;
+}
+
+.project-links {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  margin-left: 18px;
+}
+
+.project-links .material-icons {
+  font-size: 32px;
+  color: #222;
+  transition: color 0.2s;
+  cursor: pointer;
+}
+
+.project-links .material-icons:hover {
+  color: #3a22c4;
+} 
