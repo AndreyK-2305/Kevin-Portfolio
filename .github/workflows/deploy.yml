@@ -3,7 +3,7 @@ name: Deploy CRA to GitHub Pages
 on:
   push:
     branches:
-      - main  # o cambia si usas otra rama
+      - main  
 
 permissions:
   contents: write
