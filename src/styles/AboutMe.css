@@ -10,7 +10,6 @@
 }
 
 .aboutme-left {
-  flex: 0 0 350px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -60,7 +59,7 @@
 }
 
 .aboutme-info h2 {
-  font-size: 20pxpx;
+  font-size: 20px;
   margin-bottom: 16px;
   font-weight: 60px;
 }
@@ -166,3 +165,69 @@
 .aboutme-socials .material-icons:hover {
   color: #3a22c4;
 } 
+
+
+
+@media (max-width: 768px) {
+  .aboutme-container {
+    flex-direction: column;
+  }
+
+  .aboutme-left::after {
+    content: none;
+  }
+
+  .aboutme-left {
+    width: 100%;
+    min-width: 100%;
+    border-radius: 10px 10px 0 0;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  
+  .aboutme-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+  }
+
+  .aboutme-photo-wrapper {
+    width: 180px;
+    height: 180px;
+    align-items: center;
+  }
+
+  .aboutme-info {
+    margin-top: 5px;
+  }
+  
+
+  .aboutme-details {
+    padding: 5 24px;
+    font-size: 16px;
+  }
+
+  .aboutme-details div {
+    justify-content: space-between;
+  }
+
+  .aboutme-cv {
+    position: static;
+    margin: 20px auto 0 auto;
+    justify-content: center;
+  }
+
+  .aboutme-right {
+    height: auto;
+    max-height: none;
+  }
+
+  .section-header {
+    padding: 0px;
+  }
+
+  .section-content {
+    padding: 0 16px 24px 16px;
+  }
+}

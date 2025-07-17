@@ -22,14 +22,13 @@ const LinkedinIcon = () => (
 const AboutPage = () => {
   return (
     <div style={{
-      fontFamily: 'JetBrains Mono, monospace',
-      textAlign: 'center',
-      marginTop: '3rem',
-      maxWidth: '85%',
-      marginLeft: 'auto',
-      marginRight: 'auto',
-      fontSize: '18px'
+      display: 'flex',
+      justifyContent: 'center',
+      gap: 24,
+      marginTop: '32px',
+      flexWrap: 'wrap'
     }}>
+    
       <p>Soy estudiante en etapa final de Ingeniería de Sistemas, con enfoque en desarrollo web full stack. Me apasiona crear soluciones funcionales que aporten valor, y disfruto enfrentar desafíos técnicos que me reten a aprender más. He trabajado con tecnologías como JavaScript, React y Spring Boot, participando en proyectos donde he desarrollado tanto interfaces modernas como sistemas con bases de datos.</p>
 
       <p>Actualmente estoy construyendo mi portafolio como carta de presentación para oportunidades laborales o prácticas profesionales. Estoy abierto a nuevos retos y comprometido con seguir creciendo como desarrollador. </p>
@@ -41,7 +40,7 @@ const AboutPage = () => {
         <img src={pythonIcon} alt="Python" title="Python" width={48} height={48} />
         <img src={dbIcon} alt="Database" title="Database" width={48} height={48} />
       </div>
-      <div style={{ position: 'absolute', right: 40, bottom: 30, display: 'flex', gap: 24 }}>
+      <div>
         <a href="https://github.com/AndreyK-2305" target="_blank" rel="noopener noreferrer" title="GitHub">
           <GithubIcon />
         </a>

@@ -18,7 +18,18 @@ const projects = [
     githubUrl: 'https://github.com/AndreyK-2305/SCIBU',
     webUrl: 'https://andreyk-2305.github.io/SCIBU/#/auth/login',
   },
-  
+  {
+    image: scibuImg,
+    title: 'SCIBU',
+    description: 'Web de gestión de citas de servicios de salud para la vicerrectoría de Bienestar Universitario (UFPS - Cúcuta).',
+    techs: [
+      { icon: javaIcon, name: 'Java' },
+      { icon: tsIcon, name: 'TypeScript' },
+      { icon: reactIcon, name: 'React' },
+    ],
+    githubUrl: 'https://github.com/AndreyK-2305/SCIBU',
+    webUrl: 'https://andreyk-2305.github.io/SCIBU/#/auth/login',
+  },
 ];
 
 const Projects = () => {

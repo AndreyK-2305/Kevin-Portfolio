@@ -77,3 +77,54 @@ body, html, #root, .App {
     transform: rotate(360deg);
   }
 }
+
+
+@media (max-width: 768px) {
+  .app-container {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .aboutme-container {
+    flex-direction: column;
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 0;
+    
+  }
+
+  .aboutme-left,
+  .aboutme-right {
+    width: 100%;
+    border-radius: 0;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+
+  .aboutme-photo-wrapper {
+    width: 130px;
+    height: 130px;
+    margin: 0 auto;
+  }
+
+  .main-content {
+    margin-left: 0;
+    padding: 5px;  
+    height: auto;
+    
+  }
+
+  .section-header h1 {
+    font-size: 1.5rem;
+  }
+
+  .section-content {
+    padding: 8px;
+    font-size: 16px;
+  }
+
+  .sidebar-overlay{
+    width: 100%;
+    align-items: flex-end;
+  }
+}
