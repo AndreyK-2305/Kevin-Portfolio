@@ -61,7 +61,6 @@
 .aboutme-info h2 {
   font-size: 20px;
   margin-bottom: 16px;
-  font-weight: 60px;
 }
 
 .aboutme-details {
@@ -168,6 +167,7 @@
 
 
 
+
 @media (max-width: 768px) {
   .aboutme-container {
     flex-direction: column;
@@ -183,6 +183,8 @@
     border-radius: 10px 10px 0 0;
     flex-direction: row;
     align-items: flex-start;
+      background: #d3d3d3;
+
   }
   
   .aboutme-photo {
@@ -200,12 +202,16 @@
 
   .aboutme-info {
     margin-top: 5px;
+    width: 70%;
   }
   
 
   .aboutme-details {
-    padding: 5 24px;
-    font-size: 16px;
+    margin: 20px;
+  }
+
+  .aboutme-details span{
+    font-size: 14px;
   }
 
   .aboutme-details div {
@@ -227,7 +233,7 @@
     padding: 0px;
   }
 
-  .section-content {
-    padding: 0 16px 24px 16px;
+  .aboutme-info h2{
+    font-size: 14px;
   }
 }

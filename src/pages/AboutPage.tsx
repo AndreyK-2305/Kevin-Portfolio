@@ -21,13 +21,7 @@ const LinkedinIcon = () => (
 
 const AboutPage = () => {
   return (
-    <div style={{
-      display: 'flex',
-      justifyContent: 'center',
-      gap: 24,
-      marginTop: '32px',
-      flexWrap: 'wrap'
-    }}>
+    <div className='about-content'>
     
       <p>Soy estudiante en etapa final de Ingeniería de Sistemas, con enfoque en desarrollo web full stack. Me apasiona crear soluciones funcionales que aporten valor, y disfruto enfrentar desafíos técnicos que me reten a aprender más. He trabajado con tecnologías como JavaScript, React y Spring Boot, participando en proyectos donde he desarrollado tanto interfaces modernas como sistemas con bases de datos.</p>
 
