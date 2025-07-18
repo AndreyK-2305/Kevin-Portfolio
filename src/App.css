@@ -128,8 +128,8 @@ body, html, #root, .App {
 
   .section-content {
     padding: 8px;
-    font-size: 16px;
-    height: auto;
+    font-size: 14px;
+
   }
 
   .sidebar-overlay{

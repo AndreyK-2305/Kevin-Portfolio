@@ -168,11 +168,10 @@
 } 
 
 
-
-
 @media (max-width: 768px) {
   .aboutme-container {
     flex-direction: column;
+    min-height: 88vh;
   }
 
   .aboutme-left::after {
@@ -228,7 +227,7 @@
 
   .aboutme-right {
     height: auto;
-    max-height: none;
+    max-height: 63vh;
   }
 
   .section-header {
