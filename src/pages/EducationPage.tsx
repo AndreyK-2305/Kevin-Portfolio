@@ -1,6 +1,6 @@
 const EducationPage = () => {
   return (
-    <div style={{ padding: '2rem' }}>
+    <div className="section-inner-content">
       <p>Contenido de educación...</p>
     </div>
   );

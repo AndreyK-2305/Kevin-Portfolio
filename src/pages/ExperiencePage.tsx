@@ -1,6 +1,6 @@
 const ExperiencePage = () => {
   return (
-    <div style={{ padding: '2rem' }}>
+    <div className="section-inner-content">
       <p>Contenido de experiencia...</p>
     </div>
   );

@@ -3,7 +3,7 @@ import Projects from '../components/Projects';
 
 const ProjectsPage = () => {
   return (
-    <div>
+    <div className="section-inner-content">
       <Projects />
     </div>
   );
