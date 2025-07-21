@@ -24,7 +24,7 @@ const AboutMe = () => {
             <span>20</span>
           </div>
         </div>
-        <a className="aboutme-cv" href="/CV-Kevin-iS.pdf" download>
+        <a className="aboutme-cv" href="CV-Kevin-iS.pdf" download>
           Descargar CV <span className="material-icons">download</span>
         </a>
       </div>
