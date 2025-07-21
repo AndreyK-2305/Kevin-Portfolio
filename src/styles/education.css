@@ -1,0 +1,80 @@
+.education-section {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  padding: 0;
+  background: none;
+  border-radius: 0;
+  box-shadow: none;
+  font-family: 'JetBrains Mono', monospace;
+  max-width: 700px;
+  margin: 32px auto;
+}
+
+.education-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  background: #d3d3d3;
+  border-radius: 10px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  border: 1px solid #c0c0c0;
+  padding: 24px 20px 18px 20px;
+  gap: 16px;
+}
+
+.education-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.education-school {
+  font-size: 1rem;
+  color: #222;
+}
+
+.education-title {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #111;
+}
+
+.education-subject {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #444;
+}
+
+.education-date {
+  font-size: 1rem;
+  color: #222;
+  min-width: 160px;
+  text-align: right;
+  font-style: italic;
+}
+
+.education-ongoing {
+  font-style: italic;
+  color: #3a22c4;
+  font-weight: 700;
+}
+
+@media (max-width: 600px) {
+  .education-section {
+    padding: 0;
+    max-width: 100%;
+    margin: 12px 0;
+  }
+  .education-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    padding: 14px 10px 10px 10px;
+  }
+  .education-date {
+    text-align: left;
+    min-width: unset;
+    font-size: 0.95rem;
+  }
+}

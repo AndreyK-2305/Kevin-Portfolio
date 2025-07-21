@@ -33,14 +33,15 @@ const AboutPage = () => {
         <img src={reactIcon} alt="React" title="React" width={48} height={48} />
         <img src={pythonIcon} alt="Python" title="Python" width={48} height={48} />
         <img src={dbIcon} alt="Database" title="Database" width={48} height={48} />
-      </div>
-      <div>
         <a href="https://github.com/AndreyK-2305" target="_blank" rel="noopener noreferrer" title="GitHub">
           <GithubIcon />
         </a>
         <a href="https://www.linkedin.com/in/andrey-jaimes-b0bb30300/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
           <LinkedinIcon />
         </a>
+      </div>
+      <div>
+        
       </div>
 
     </div>

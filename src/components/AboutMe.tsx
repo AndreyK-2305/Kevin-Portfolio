@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/AboutMe.css';
 import perfilImage from '../assets/perfil/perfilserio.png';
-import cv from '../assets/perfil/perfil.jpg'
+import cv from '../assets/perfil/perfil.jpg';
 
 const AboutMe = () => {
   return (
@@ -25,7 +25,7 @@ const AboutMe = () => {
             <span>20</span>
           </div>
         </div>
-        <a className="aboutme-cv" href={cv} download>
+        <a className="aboutme-cv" href="/CV-Kevin-iS.pdf" download>
           Descargar CV <span className="material-icons">download</span>
         </a>
       </div>
