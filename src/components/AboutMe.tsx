@@ -1,7 +1,6 @@
 import React from 'react';
 import '../styles/AboutMe.css';
 import perfilImage from '../assets/perfil/perfilserio.png';
-import cv from '../assets/perfil/perfil.jpg';
 
 const AboutMe = () => {
   return (
